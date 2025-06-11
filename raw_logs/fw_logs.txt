@@ -1,0 +1,300 @@
+
+
+Jun 11 00:02:59 TP-PA850-A 1,2021/10/13 14:36:10,011901019052,THREAT,spyware,2049,2021/10/13 14:36:10,10.80.22.2,8.8.8.8,0.0.0.0,0.0.0.0,Trust to Untrust,,,dns,vsys1,Trust,Untrust,ae2,ae1,Syslog To SOC VM,2021/10/13 14:36:10,107637,1,61473,53,0,0,0x2000,udp,alert,"",generic:update.helper.2345.cc(200086032),any,medium,client-to-server,623274,0x2000000000000000,10.0.0.0-10.255.255.255,United States,0,,0,,,0,,,,,,,,0,0,0,0,0,,TP-PA850-A,,,,,0,,0,,N/A,dns-wildfire,AppThreat-9-12224,0x0,0,4294967295,
+
+
+Jun 11 00:02:58 TOMILLA 1,2022/07/11 22:21:33,042801001422,THREAT,url,2561,2022/07/11 22:21:33,10.5.0.111,10.1.0.48,0.0.0.0,0.0.0.0,IP-VPN,sedapar\cya..ez,,ssl,vsys1,LAN,RPV_1,vlan.2,vlan.1,LFPSecuronix,2022/07/11 22:21:33,13132,1,53046,13000,0,0,0x10b400,tcp,alert,"10.1.0.48:13000/",(9999),private-ip-addresses,informational,client-to-server,7118851307493924059,0x0,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,,0,,""private-ip-addresses"",0,,,""private-ip-addresses"",""private-ip-addresses"",""private-ip-addresses"",""private-ip-addresses"",""private-ip-addresses"",0,163,0,0,0,,TOMILLA,""private-ip-addresses"",,,,0,,0,,N/A,unknown,AppThreat-0-0,0x0,0,4294967295,""private-ip-addresses"",""private-ip-addresses"",b37358b9-e37e-4dab-b257-38396460ebc8,0,,,,,,,,,,,,,,,,,,,,,,,,,,,""private-ip-addresses"",""private-ip-addresses"",0,2022-07-11T22:21:33.162-05:00,,""private-ip-addresses"",,encrypted-tunnel,networking,browser-based,4,""used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use"",,ssl,no,no
+
+
+Jun 11 00:02:57 Panorama.databahn.ai 1,2021/11/24 05:38:55,016401007387,SYSTEM,globalprotect,0,2021/11/24 05:38:47,,globalprotectgateway-config-succ,GP-SAG-External-Gateway-N,0,0,general,informational,"GlobalProtect gateway client configuration generated. User name: Sandrine.Lepage@slatergordon.com.au, Private IP: 172.20.28.114, Client version: 5.1.3-12, Device name: SG53269, Client OS version: Microsoft Windows 10 Enterprise , 64-bit, VPN type: Device Level VPN.",10985651,0x8000000000000000,0,0,0,0,,dc1-firewall-02
+
+
+Jun 11 00:02:56 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000225708,TRAFFIC,end,2560,2022/05/16 07:30:05,10.138.16.89,10.137.16.103,0.0.0.0,0.0.0.0,ElasticSearch-Mangp-to-Datastore,,,ssl,vsys1,trust,trust,ethernet1/1,ethernet1/1,hbl-log-forwarding-panorama-snmp,2022/05/16 07:30:05,126443,1,34010,8443,0,0,0x10047a,tcp,allow,6186,1761,4425,31,2022/05/16 07:28:47,61,private-ip-addresses,,317786561,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,18,13,tcp-rst-from-client,38,46,0,0,,hbl-gcp-ns-fw-ew-prod-tpl-as1-2,from-policy,,,0,,0,,N/A,0,0,0,0,e6d545ab-803d-4501-bba6-e4f5e459acc2,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:30:06.269+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+
+
+Jun 11 00:02:55 hal-vma-pan1.ads-storck.com 1,2022/05/16 11:06:09,016201009624,THREAT,vulnerability,2305,2022/05/16 11:05:52,10.249.4.181,91.235.132.62,193.168.0.71,91.235.132.62,webbrowsing-20201229-1408,ads-storck\dortland,,web-browsing,vsys1,dmz-off0,untrust,ethernet1/5.691,ethernet1/1,Log_to_Panorama,2022/05/16 11:05:52,95231,1,64950,443,48745,443,0x81412000,tcp,reset-both,"faas.marktplaats.nl/fp/check.js?&pageid=99998&session_id=fe96b182-bdcf-42e8-949a-c4c1437a297c&org_id=udd8uxur&nonce=14c03ba7a520e311",Microsoft MSXML Memory Corruption Vulnerability(35646),shopping,high,server-to-client,3480365645,0xa000000000000000,10.0.0.0-10.255.255.255,United States,,,1208301720401110507,,,5,,,,,,,,0,11,0,0,0,,fw-de-hal-prz-inet,,,,,0,,0,,N/A,code-execution,AppThreat-8569-7390,0x0,0,4294967295,,,193cd597-a17d-496c-a255-d6b3820d6ea0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1970-01-01T01:00:00.000+01:00,,,0,internet-utility,general-internet,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,web-browsing,no,no
+
+
+Jun 11 00:02:54 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000226817,TRAFFIC,end,2560,2022/05/16 07:29:47,10.149.18.174,10.207.4.24,0.0.0.0,0.0.0.0,sprinkler-nonpci-lb-listner,,,ssl,vsys1,trust,trust,ethernet1/1,ethernet1/1,hbl-log-forwarding-panorama-snmp,2022/05/16 07:29:47,651099,1,40246,443,0,0,0x41a,tcp,allow,6299,1428,4871,17,2022/05/16 07:29:31,0,private-ip-addresses,,470619235,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,8,9,tcp-rst-from-client,49,50,0,0,,hbl-gcp-ns-fw-ew-uat-vm-as1-ztt,from-policy,,,0,,0,,N/A,0,0,0,0,7c191e44-d9af-4e24-b74d-70f08717013a,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:29:47.670+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+
+
+Jun 11 00:02:53 FWL127-001.libro.ca 1,2022/07/12 04:21:41,016201002769,SYSTEM,userid,0,2022/07/12 04:21:41,,connect-server-monitor,,0,0,general,informational,"User-ID server monitor srv282-dc01.libro.ca(vsys1): connected to srv282-dc01.libro.ca",69700261,0x8000000000000000,0,0,0,0,,FWL127-001
+
+
+Jun 11 00:02:52 HH-PA850-B 1,2021/10/12 15:45:17,011901019066,CONFIG,0,0,2021/10/12 15:45:17,10.80.23.15,,edit,admin,Web,Succeeded, vsys vsys1 rulebase security rules Untrust to Trust - Snmp Service,353,0x0,0,0,0,0,,HH-PA850-B
+
+
+Jun 11 00:02:51 Panorama.databahn.ai 1,2021/11/24 05:38:55,016401007387,SYSTEM,globalprotect,0,2021/11/24 05:38:47,,globalprotectgateway-config-succ,GP-SAG-External-Gateway-N,0,0,general,informational,"GlobalProtect gateway client configuration generated. User name: Sandrine.Lepage@slatergordon.com.au, Private IP: 172.20.28.114, Client version: 5.1.3-12, Device name: SG53269, Client OS version: Microsoft Windows 10 Enterprise , 64-bit, VPN type: Device Level VPN.",10985651,0x8000000000000000,0,0,0,0,,dc1-firewall-02
+
+
+Jun 11 00:02:50 hal-vma-pan1.ads-storck.com 1,2022/05/16 07:09:12,000702104014,SYSTEM,monitoring,0,2022/05/16 07:09:12,,deviating-device, ,0,0,general,informational,"Deviating device: fw-cz-pra-inet-1, Serial: 012801177063, Object: s1 dp0, Metric: dp-cpu, Value: 2",7097851606066614537,0x0,0,0,0,0,,hal-vma-pan1,0,0,2022-05-16T07:09:12.000+02:00
+
+
+Jun 11 00:02:49 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000225708,TRAFFIC,drop,2560,2022/05/16 07:29:54,10.142.177.232,10.136.0.18,0.0.0.0,0.0.0.0,any-deny,,,not-applicable,vsys1,trust,trust,ethernet1/1,,hbl-log-forwarding-panorama-snmp,2022/05/16 07:29:54,0,1,35928,443,0,0,0x0,tcp,deny,0,0,0,1,2022/05/16 07:29:52,0,any,,317786463,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,1,0,policy-deny,38,46,0,0,,hbl-gcp-ns-fw-ew-prod-tpl-as1-2,from-policy,,,0,,0,,N/A,0,0,0,0,5bcd91bb-e6b5-4514-bc88-0958f42fdf58,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:29:55.554+05:30,,,unknown,unknown,unknown,1,,,not-applicable,no,no,0
+
+
+Jun 11 00:02:48 HH-PA850-B 1,2021/10/11 11:50:42,011901019066,SYSTEM,userid,0,2021/10/11 11:50:42,,connect-ldap-sever,10.180.22.1,0,0,general,informational,"ldap cfg Domaingroup connected to server 10.180.22.1:389, initiated by: 10.180.23.121",472761,0x0,0,0,0,0,,HH-PA850-B
+
+
+Jun 11 00:02:47 NVV-PANORAMA-01.lvs.lvsi.com 1,2021/11/21 17:27:49,012501001261,SYSTEM,vpn,0,2021/11/21 17:27:48,,ike-generic-event,,0,0,general,informational,"received a message to a dead IKE SA",6917201858682841420,0x8000000000000000,0,0,0,0,,NVV-PALO-EDGE-FW01,0,0,1969-12-31T16:00:00.000-08:00
+
+
+Jun 11 00:02:46 FWL217-001.libro.ca 1,2022/05/05 08:21:03,016201002746,SYSTEM,general,0,2022/05/05 08:21:03,,general,,0,0,general,informational,"Connection to Update server: updates.paloaltonetworks.com completed successfully, initiated by 10.217.220.242",13639758,0x8000000000000000,0,0,0,0,,FWL217-00-
+
+
+Jun 11 00:02:45 HH-PA850-B 1,2021/10/12 14:06:40,011901019066,THREAT,url,2049,2021/10/12 14:06:40,10.180.17.185,122.10.31.74,0.0.0.0,0.0.0.0,Trust to Untrust,,,ssl,vsys1,Trust,Untrust,ae2,ae1,Syslog to SOC VM,2021/10/12 14:06:40,194453,1,61120,443,0,0,0x3000,tcp,block-url,"9876500.com/",(9999),gambling,informational,client-to-server,1496672,0x2000000000000000,10.0.0.0-10.255.255.255,Hong Kong,0,,0,,,0,,,,,,,,0,0,0,0,0,,HH-PA850-B,,,,,0,,0,,N/A,unknown,AppThreat-0-0,0x0,0,4294967295,
+
+
+Jun 11 00:02:44 FWL127-001.libro.ca 1,2022/07/12 04:21:41,016201002769,SYSTEM,userid,0,2022/07/12 04:21:41,,connect-server-monitor,,0,0,general,informational,"User-ID server monitor srv282-dc01.libro.ca(vsys1): connected to srv282-dc01.libro.ca",69700261,0x8000000000000000,0,0,0,0,,FWL127-001
+
+
+Jun 11 00:02:43 Panorama.databahn.ai 1,2021/11/22 10:55:09,016401007387,THREAT,wildfire-virus,2049,2021/11/22 10:54:51,192.168.7.100,172.16.100.138,0.0.0.0,0.0.0.0,WAN to CORE,sag\rvanlohuizen,sag\svc_mamfe,ms-ds-smbv3,vsys1,WAN,CORE,ae1.235,ae1.234,LF-Panorama,2021/11/22 10:54:51,1317747,1,62171,445,0,0,0x80002000,tcp,reset-both,"",Virus/Win32.WGeneric.bjiqqr(421602885),any,medium,server-to-client,201197090,0xa000000000000000,192.168.0.0-192.168.255.255,172.16.0.0-172.31.255.255,0,,1207016174143945163,,,0,,,,,,,,0,49,11,0,0,,dc1-firewall-02,,,,,0,,0,,N/A,office,WildFire-613459,0x0,0,4294967295,,,,0,
+
+
+Jun 11 00:02:42 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000226817,TRAFFIC,end,2560,2022/05/16 07:29:58,10.206.11.229,10.149.18.33,0.0.0.0,0.0.0.0,sprinkler-nonpci-elasticsearch-mondodb,,,ssl,vsys1,trust,trust,ethernet1/1,ethernet1/1,hbl-log-forwarding-panorama-snmp,2022/05/16 07:29:58,12735,1,49692,8443,0,0,0x10047a,tcp,allow,5899,1641,4258,29,2022/05/16 07:28:41,61,private-ip-addresses,,470619451,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,16,13,tcp-rst-from-server,49,50,0,0,,hbl-gcp-ns-fw-ew-uat-vm-as1-ztt,from-policy,,,0,,0,,N/A,0,0,0,0,da2d4243-b93f-45f1-a2ab-d0cf4d83c0f1,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:29:58.670+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+
+
+Jun 11 00:02:41 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000226817,TRAFFIC,end,2560,2022/05/16 07:29:50,35.191.1.129,10.156.173.8,0.0.0.0,0.0.0.0,gcp-ilb-uat-lb-monitoring,,,ssl,vsys1,untrust,untrust,ethernet1/2,loopback.2,hbl-panorama,2022/05/16 07:29:50,611416,1,59472,443,0,0,0x41c,tcp,allow,25314,1419,23895,35,2022/05/16 07:29:33,1,private-ip-addresses,,470619315,0x8000000000000000,United States,10.0.0.0-10.255.255.255,,13,22,tcp-fin,49,50,0,0,,hbl-gcp-ns-fw-ew-uat-vm-as1-ztt,from-policy,,,0,,0,,N/A,0,0,0,0,a948709b-ccf6-4ecf-8261-93c2ef585890,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:29:50.832+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+
+
+Jun 11 00:02:40 FWL127-001.libro.ca 1,2022/07/12 04:21:37,016201002769,SYSTEM,vpn,0,2022/07/12 04:21:37,,ipsec-key-install,outside_map-15-windsor:govital_,0,0,general,informational,"IPSec key installed. Installed SA: 72.38.229.162[500]-208.90.68.234[500] SPI:0xA2DED661/0x8BF15D6C lifetime 3600 Sec lifesize 4608000 KB.",69700254,0x8000000000000000,0,0,0,0,,FWL127-001
+
+
+Jun 11 00:02:39 DAL-HQ-FW-A.management.cdl.local 1,2021/11/19 23:45:36,011901025425,THREAT,file,2560,2021/11/19 23:45:36,172.21.13.3,192.168.20.4,0.0.0.0,0.0.0.0,GlobalProtect - CC - Allow,hhennesy,,ms-ds-smbv2,vsys1,GlobalProtect_VPN,CC-Private_Ethernet,tunnel,vlan.120,Securonix-Logging,2021/11/19 23:45:36,8672,5,59002,445,0,0,0x2000,tcp,alert,"Registry.pol",Unknown Binary File(52081),any,low,server-to-client,2394105,0x2000000000000000,172.16.0.0-172.31.255.255,192.168.0.0-192.168.255.255,0,,0,,,0,,,,,,,,0,0,0,0,0,,DAL-HQ-FW-A,,,,,0,,0,,N/A,unknown,AppThreat-8491-7055,0x0,0,4294967295,,,90ced82d-67bc-45ce-bebe-0dadcb151b47,0,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2021-11-19T23:45:36.915-06:00,,,
+
+
+Jun 11 00:02:38 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000225708,TRAFFIC,end,2560,2022/05/16 07:29:45,10.139.17.145,10.137.16.56,0.0.0.0,0.0.0.0,ElasticSearch-Mangp-to-Datastore,,,ssl,vsys1,trust,trust,ethernet1/1,ethernet1/1,hbl-log-forwarding-panorama-snmp,2022/05/16 07:29:45,65449,1,52092,53421,0,0,0x10047a,tcp,allow,15609,6436,9173,33,2022/05/16 07:29:28,0,private-ip-addresses,,317786421,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,18,15,tcp-fin,38,46,0,0,,hbl-gcp-ns-fw-ew-prod-tpl-as1-2,from-policy,,,0,,0,,N/A,0,0,0,0,e6d545ab-803d-4501-bba6-e4f5e459acc2,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:29:46.251+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+
+
+Jun 11 00:02:37 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000225708,TRAFFIC,end,2560,2022/05/16 07:29:46,10.139.17.145,10.137.16.3,0.0.0.0,0.0.0.0,ElasticSearch-Mangp-to-Datastore,,,ssl,vsys1,trust,trust,ethernet1/1,ethernet1/1,hbl-log-forwarding-panorama-snmp,2022/05/16 07:29:46,112079,1,37174,53421,0,0,0x10047a,tcp,allow,15952,6552,9400,33,2022/05/16 07:29:28,1,private-ip-addresses,,317786429,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,18,15,tcp-fin,38,46,0,0,,hbl-gcp-ns-fw-ew-prod-tpl-as1-2,from-policy,,,0,,0,,N/A,0,0,0,0,e6d545ab-803d-4501-bba6-e4f5e459acc2,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:29:47.250+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+
+
+Jun 11 00:02:36 Panorama.databahn.ai 1,2021/11/24 05:38:55,016401007387,SYSTEM,globalprotect,0,2021/11/24 05:38:47,,globalprotectgateway-config-succ,GP-SAG-External-Gateway-N,0,0,general,informational,"GlobalProtect gateway client configuration generated. User name: Sandrine.Lepage@slatergordon.com.au, Private IP: 172.20.28.114, Client version: 5.1.3-12, Device name: SG53269, Client OS version: Microsoft Windows 10 Enterprise , 64-bit, VPN type: Device Level VPN.",10985651,0x8000000000000000,0,0,0,0,,dc1-firewall-02
+
+
+Jun 11 00:02:35 hal-vma-pan1.ads-storck.com 1,2022/05/16 07:09:12,000702104014,SYSTEM,monitoring,0,2022/05/16 07:09:12,,deviating-device,,0,0,general,informational,"Deviating device: fw-cz-pra-inet-1, Serial: 012801177063, Object: interface 1/2, Metric: packets-per-sec-transmit, Value: 62",7097851606066614550,0x0,0,0,0,0,,hal-vma-pan1,0,0,2022-05-16T07:09:12.000+02:00,
+
+
+Jun 11 00:02:34 TP-PA850-A 1,2021/10/13 01:12:56,011901019052,SYSTEM,ha,0,2021/10/13 01:12:56,,peer-version-match,,0,0,general,informational,"HA Group 20: Threat Content version now matches",697917,0x0,0,0,0,0,,TP-PA850-A
+
+
+Jun 11 00:02:33 NVV-PANORAMA-01.lvs.lvsi.com 1,2021/11/22 13:09:04,012501001279,SYSTEM,panorama-check,0,2021/11/22 13:09:02,,panorama-check-test,,0,0,general,informational,"JobId=32951: Performing panorama connectivity check (attempt 1 of 1)",6995516317952628874,0x8000000000000000,0,0,0,0,,NVV-PALO-INT-FW01,0,0,2021-11-22T13:09:02.000-08:00
+
+
+Jun 11 00:02:32 HH-PA850-B 1,2021/10/12 14:06:40,011901019066,THREAT,url,2049,2021/10/12 14:06:40,10.180.17.185,122.10.31.74,0.0.0.0,0.0.0.0,Trust to Untrust,,,ssl,vsys1,Trust,Untrust,ae2,ae1,Syslog to SOC VM,2021/10/12 14:06:40,194453,1,61120,443,0,0,0x3000,tcp,block-url,"9876500.com/",(9999),gambling,informational,client-to-server,1496672,0x2000000000000000,10.0.0.0-10.255.255.255,Hong Kong,0,,0,,,0,,,,,,,,0,0,0,0,0,,HH-PA850-B,,,,,0,,0,,N/A,unknown,AppThreat-0-0,0x0,0,4294967295,
+
+
+Jun 11 00:02:31 Panorama.databahn.ai 1,2022/07/11 23:45:22,000702636547,USERID,login,58,2022/07/11 23:45:22,,10.200.190.31,mccad\asterisk,XMLAPI,0,1,604800,0,0,xml-api,,7098972420733499134,0x0,0,0,0,0,,Panorama,0,,2022/07/11 23:45:22,1,0x0,mccad\asterisk,,1969-12-31T19:00:00.000-05:00
+
+
+Jun 11 00:02:30 hal-vma-pan1.ads-storck.com 1,2022/05/16 11:08:32,016201009624,THREAT,vulnerability,2305,2022/05/16 11:08:27,10.249.4.181,91.235.132.62,193.168.0.71,91.235.132.62,webbrowsing-20201229-1408,ads-storck\dortland,,web-browsing,vsys1,dmz-off0,untrust,ethernet1/5.691,ethernet1/1,Log_to_Panorama,2022/05/16 11:08:27,952183,1,59829,443,29672,443,0x81412000,tcp,reset-both,"check.js",Microsoft MSXML Memory Corruption Vulnerability(35646),shopping,high,server-to-client,3480382961,0xa000000000000000,10.0.0.0-10.255.255.255,United States,,,1208301720401110510,,,4,,,,,,,,0,11,0,0,0,,fw-de-hal-prz-inet,,,,,0,,0,,N/A,code-execution,AppThreat-8569-7390,0x0,0,4294967295,,,193cd597-a17d-496c-a255-d6b3820d6ea0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1970-01-01T01:00:00.000+01:00,,,0,internet-utility,general-internet,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,web-browsing,no,no
+
+
+Jun 11 00:02:29 hal-vma-pan1.ads-storck.com 1,2022/05/16 10:41:25,016201009624,THREAT,vulnerability,2305,2022/05/16 10:41:07,192.241.214.17,193.168.0.140,0.0.0.0,0.0.0.0,mdm-20150424-474,,,web-browsing,vsys1,untrust,dmz-off0,ethernet1/1,ethernet1/5.691,Log_to_Panorama,2022/05/16 10:41:07,788524,1,45014,8080,0,0,0x80102000,tcp,reset-both,"hudson",ZGrab Application Layer Scanner Detection(57955),medium-risk,medium,client-to-server,3480200349,0xa000000000000000,United States,Germany,,,1208301720401110497,,,1,,,,,,,,0,11,0,0,0,,fw-de-hal-prz-inet,,,,,0,,0,,N/A,info-leak,AppThreat-8569-7390,0x0,0,4294967295,,,3ec24865-5ee7-4eab-97c3-cb5490cc9f2e,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1970-01-01T01:00:00.000+01:00,,,0,internet-utility,general-internet,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,web-browsing,no,no
+
+
+Jun 11 00:02:28 HH-PA850-B 1,2021/10/11 11:50:42,011901019066,SYSTEM,userid,0,2021/10/11 11:50:42,,connect-ldap-sever,10.180.22.1,0,0,general,informational,"ldap cfg Domaingroup connected to server 10.180.22.1:389, initiated by: 10.180.23.121",472761,0x0,0,0,0,0,,HH-PA850-B
+
+
+Jun 11 00:02:27 HH-PA850-B 1,2021/10/13 12:52:57,011901019066,TRAFFIC,end,2049,2021/10/13 12:52:57,10.180.10.100,175.45.42.201,0.0.0.0,0.0.0.0,Trust to Untrust,leigarden\lgr01063,,ms-update,vsys1,Trust,Untrust,ae2,ae1,Syslog to SOC VM,2021/10/13 12:52:57,37651,1,1253,80,0,0,0x1c,tcp,allow,1185,666,519,10,2021/10/13 12:50:50,110,computer-and-internet-info,0,269841489,0x0,10.0.0.0-10.255.255.255,Hong Kong,0,6,4,tcp-fin,0,0,0,0,,HH-PA850-B,from-policy,,,0,,0,,N/A,0,0,0,0
+
+
+Jun 11 00:02:26 10.90.130.5 <14>Jul 13 05:43:20 awpan01.belcan.com - 1,2022/07/13 05:43:20,016401007615,THREAT,spyware,2305,2022/07/13 05:43:18,10.90.200.114,18.160.213.49,204.90.74.7,18.160.213.49,EX Proxy to Internet,,,ssl,vsys1,DMZ,untrusted,ae3.200,ae1,Forward to Panorama US,2022/07/13 05:43:18,1730072,2,34352,443,34352,443,0x403000,tcp,alert,"training.knowbe4.com/",Suspicious TLS Evasion Found(14978),low-risk,informational,client-to-server,441662854,0xa000000000000000,10.0.0.0-10.255.255.255,United States,,,0,,awlync05/default.aspx,0,,,awlync05/default.aspx,awlync05/default.aspx,awlync05/default.aspx,awlync05/default.aspx,awlync05/default.aspx,0,1381,193,0,0,,MUNSFW01,awlync05/default.aspx,,,,0,,0,,N/A,spyware,AppThreat-8589-7461,0x0,0,4294967295,awlync05/default.aspx,awlync05/default.aspx,1a4f403e-1135-484e-a905-b09f355ba782,0,,,,,,,,,,,,,,,,,,,,,,,,,,,awlync05/default.aspx,awlync05/default.aspx,0,1969-12-31T19:00:00.000-05:00,,awlync05/default.aspx,0,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no
+
+
+Jun 11 00:02:25 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000225708,TRAFFIC,end,2560,2022/05/16 07:30:04,10.138.16.89,10.137.16.103,0.0.0.0,0.0.0.0,ElasticSearch-Mangp-to-Datastore,,,ssl,vsys1,trust,trust,ethernet1/1,ethernet1/1,hbl-log-forwarding-panorama-snmp,2022/05/16 07:30:04,86899,1,33894,8443,0,0,0x10047a,tcp,allow,6132,1707,4425,30,2022/05/16 07:28:46,61,private-ip-addresses,,317786529,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,17,13,tcp-rst-from-server,38,46,0,0,,hbl-gcp-ns-fw-ew-prod-tpl-as1-2,from-policy,,,0,,0,,N/A,0,0,0,0,e6d545ab-803d-4501-bba6-e4f5e459acc2,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:30:05.269+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+
+
+Jun 11 00:02:24 TP-PA850-B 1,2021/10/09 01:24:18,011901019122,SYSTEM,ras,0,2021/10/09 01:22:47,,rasmgr-daemon-start,,0,0,general,informational,"RASMGR daemon is ready.",403419,0x0,0,0,0,0,,TP-PA850-B
+
+
+Jun 11 00:02:23 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000225708,TRAFFIC,end,2560,2022/05/16 07:30:04,10.138.16.89,10.137.16.103,0.0.0.0,0.0.0.0,ElasticSearch-Mangp-to-Datastore,,,ssl,vsys1,trust,trust,ethernet1/1,ethernet1/1,hbl-log-forwarding-panorama-snmp,2022/05/16 07:30:04,146636,1,33892,8443,0,0,0x10047a,tcp,allow,6186,1761,4425,31,2022/05/16 07:28:46,61,private-ip-addresses,,317786517,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,18,13,tcp-rst-from-client,38,46,0,0,,hbl-gcp-ns-fw-ew-prod-tpl-as1-2,from-policy,,,0,,0,,N/A,0,0,0,0,e6d545ab-803d-4501-bba6-e4f5e459acc2,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:30:05.161+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+
+
+Jun 11 00:02:22 hal-vma-pan1.ads-storck.com 1,2022/05/16 10:44:28,016201009624,THREAT,vulnerability,2305,2022/05/16 10:44:22,192.241.206.134,193.168.0.151,0.0.0.0,0.0.0.0,vcs-20181025-1300,,,web-browsing,vsys1,untrust,dmz-off0,ethernet1/1,ethernet1/5.691,Log_to_Panorama,2022/05/16 10:44:22,706979,1,51234,8443,0,0,0x80102000,tcp,reset-both,"eureka_info",ZGrab Application Layer Scanner Detection(57955),medium-risk,medium,client-to-server,3480223640,0xa000000000000000,United States,Germany,,,1208301720401110500,,,1,,,,,,,,0,11,0,0,0,,fw-de-hal-prz-inet,,,,,0,,0,,N/A,info-leak,AppThreat-8569-7390,0x0,0,4294967295,,,818724ff-82fa-413f-a215-f961ecf04f99,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1970-01-01T01:00:00.000+01:00,,,0,internet-utility,general-internet,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,web-browsing,no,no
+
+
+Jun 11 00:02:21 AZASEPAVM300FW01 1,2022/01/11 10:27:38,007257000161506,GLOBALPROTECT,0,2561,2022/01/11 10:27:38,vsys1,gateway-auth,login,Cookie,,dinopoulosj,AU,RHSTE-LEN5-L,49.186.53.121,0.0.0.0,0.0.0.0,0.0.0.0,9ff68ee4-63ea-4cbb-976d-26b6ba4aed1f,R90N8VUL,5.2.8,Windows,"Microsoft Windows 10 Pro , 64-bit",1,,Cookie expired,,failure,,0,user-logon,17,GP-Gateway,7043708741526496664,0x0,2022-01-11T10:27:39.482+11:00,auto,,,,,0,0,0,0,,AZASEPAVM300FW01,0
+
+
+Jun 11 00:02:20 TP-PA850-A 1,2021/10/13 00:02:07,011901019052,TRAFFIC,drop,2049,2021/10/13 00:02:07,122.10.198.132,10.80.201.6,0.0.0.0,0.0.0.0,Untrust to Trust-GEO_BLOCK,,leigarden\administrator,ping,vsys1,Untrust,Trust,ae1,,Syslog To SOC VM,2021/10/13 00:02:07,0,4,0,0,0,0,0x100000,icmp,deny,408,408,0,4,2021/10/13 00:02:00,0,any,0,812190023,0x0,India,10.0.0.0-10.255.255.255,0,4,0,policy-deny,0,0,0,0,,TP-PA850-A,from-policy,,,0,,0,,N/A,0,0,0,0
+
+
+Jun 11 00:02:19 TP-PA850-A 1,2021/10/07 20:36:39,011901019052,SYSTEM,port,0,2021/10/07 20:36:39,,link-change,ethernet1/1,0,0,general,informational,"Port ethernet1/1: Down 1Gb/s-full duplex",692224,0x0,0,0,0,0,,TP-PA850-A
+
+
+Jun 11 00:02:18 lslcpan02.regence.com 1,2021/11/15 07:44:05,012501003505,THREAT,flood,2305,2021/11/15 07:43:59,0.0.0.0,0.0.0.0,0.0.0.0,0.0.0.0,,,,not-applicable,vsys1,Security928,Security928,,,Logging - PAN,2021/11/15 07:43:59,0,1,0,0,0,0,0x2000,tcp,syncookie-sent,"",TCP Flood(8501),any,critical,client-to-server,7007073332580192414,0xa000000000000000,0.0.0.0-0.255.255.255,0.0.0.0-0.255.255.255,0,,0,,,0,,,,,,,,0,11,0,0,0,,ut0101df01a,,,,,0,,0,,N/A,flood,AppThreat-0-0,0x0,0,4294967295,,,,0,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1970-01-01T00:00:00.000+00:00,,,0
+
+
+Jun 11 00:02:17 hal-vma-pan1.ads-storck.com 1,2022/05/16 10:31:36,016201009624,THREAT,vulnerability,2305,2022/05/16 10:31:26,192.241.214.25,193.168.0.84,192.241.214.25,192.168.2.74,fta-20150423-501,,,web-browsing,vsys1,untrust,dmz5,ethernet1/1,ethernet1/5.50,Log_to_Panorama,2022/05/16 10:31:26,903184,1,43190,80,43190,80,0x80402000,tcp,reset-both,"hudson",ZGrab Application Layer Scanner Detection(57955),medium-risk,medium,client-to-server,3480135272,0xa000000000000000,United States,Germany,,,1208301720401110496,,,1,,,,,,,,0,11,0,0,0,,fw-de-hal-prz-inet,,,,,0,,0,,N/A,info-leak,AppThreat-8569-7390,0x0,0,4294967295,,,a1366590-47c6-4d38-a675-52f546278e71,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1970-01-01T01:00:00.000+01:00,,,0,internet-utility,general-internet,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,web-browsing,no,no
+
+
+Jun 11 00:02:16 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:05,015455000032211,TRAFFIC,end,2560,2022/05/16 07:29:51,10.199.2.134,10.199.5.119,0.0.0.0,0.0.0.0,alb-health-check-rule,,,ssl,vsys1,untrust,untrust,ethernet1/1,ethernet1/1,hbl-log-forwarding-panorama-snmp,2022/05/16 07:29:51,43914,1,58836,443,0,0,0x41c,tcp,allow,4406,1035,3371,15,2022/05/16 07:29:35,0,private-ip-addresses,,46171867,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,8,7,tcp-fin,39,40,0,0,,ip-10-199-7-74,from-policy,,,0,,0,,N/A,0,0,0,0,bb82f3fe-d31a-48a7-bee1-e3f744edb170,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:29:52.360+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:15 NVV-PANORAMA-01.lvs.lvsi.com 1,2021/11/23 07:55:15,012501001276,SYSTEM,device-telemetry,0,2021/11/23 07:55:03,,send-success,,0,0,general,informational,"Successfully sent: file 'PA_012501001276_dt_10.0.6_20211123_1530_1-hr-interval_HOUR.tgz'.",6995524740383483961,0x8000000000000000,0,0,0,0,,NVV-PALO-INT-FW02,0,0,2021-11-23T07:55:03.000-08:00
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:14 hal-vma-pan1.ads-storck.com 1,2022/05/16 11:10:33,016201009624,THREAT,vulnerability,2305,2022/05/16 11:10:24,193.34.145.251,193.168.0.84,193.34.145.251,192.168.2.74,fta-20150423-501,,,web-browsing,vsys1,untrust,dmz5,ethernet1/1,ethernet1/5.50,Log_to_Panorama,2022/05/16 11:10:24,844224,1,53152,80,53152,80,0x80402000,tcp,reset-both,"shell",MVPower DVR Shell Unauthenticated Command Execution Vulnerability(57566),private-ip-addresses,medium,client-to-server,3480397543,0xa000000000000000,Germany,Germany,,,1208301720401110511,,,1,,,,,,,,0,11,0,0,0,,fw-de-hal-prz-inet,,,,,0,,0,,N/A,code-execution,AppThreat-8569-7390,0x2,0,4294967295,,,a1366590-47c6-4d38-a675-52f546278e71,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1970-01-01T01:00:00.000+01:00,,,0,internet-utility,general-internet,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,web-browsing,no,no
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:13 hal-vma-pan1.ads-storck.com 1,2022/05/16 07:09:12,000702104014,SYSTEM,monitoring,0,2022/05/16 07:09:12,,deviating-device,,0,0,general,informational,"Deviating device: fw-cz-pra-inet-1, Serial: 012801177063, Object: interface 1/2, Metric: packets-per-sec-transmit, Value: 62",7097851606066614550,0x0,0,0,0,0,,hal-vma-pan1
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:12 NVV-PANORAMA-01.lvs.lvsi.com 1,2021/11/23 07:55:15,012501001276,SYSTEM,device-telemetry,0,2021/11/23 07:55:03,,send-success,,0,0,general,informational,"Successfully sent: file 'PA_012501001276_dt_10.0.6_20211123_1530_1-hr-interval_HOUR.tgz'.",6995524740383483961,0x8000000000000000,0,0,0,0,,NVV-PALO-INT-FW02,0,0,2021-11-23T07:55:03.000-08:00
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:11 TP-PA850-B 1,2021/10/09 01:25:32,011901019122,SYSTEM,routing,0,2021/10/09 01:25:32,,routed-config-p1-success,,0,0,general,informational,"Route daemon configuration load phase-1 succeeded.",403428,0x0,0,0,0,0,,TP-PA850-B
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:10 hal-vma-pan1.ads-storck.com 1,2022/05/16 10:45:29,016201009624,THREAT,vulnerability,2305,2022/05/16 10:45:16,10.249.5.117,185.32.241.65,193.168.0.71,185.32.241.65,webbrowsing-20201229-1408,ads-storck\haensel,,web-browsing,vsys1,dmz-off0,untrust,ethernet1/5.691,ethernet1/1,Log_to_Panorama,2022/05/16 10:45:16,565042,1,53157,443,38297,443,0x81412000,tcp,reset-both,"Iz5xn910x_gpfNOk",Microsoft MSXML Memory Corruption Vulnerability(35646),auctions,high,server-to-client,3480229962,0xa000000000000000,10.0.0.0-10.255.255.255,United States,,,1208301720401110502,,,5,,,,,,,,0,11,0,0,0,,fw-de-hal-prz-inet,,,,,0,,0,,N/A,code-execution,AppThreat-8569-7390,0x0,0,4294967295,,,193cd597-a17d-496c-a255-d6b3820d6ea0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1970-01-01T01:00:00.000+01:00,,,0,internet-utility,general-internet,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,web-browsing,no,no
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:09 hal-vma-pan1.ads-storck.com 1,2022/05/16 10:51:15,016201009624,THREAT,vulnerability,2305,2022/05/16 10:51:04,10.13.15.249,192.168.2.14,0.0.0.0,0.0.0.0,email-20150330-0905,,,smtp-base,vsys1,trust,dmz1,ae1,ethernet1/5.10,Log_to_Panorama-Email_Halle,2022/05/16 10:51:04,803553,1,54500,10025,0,0,0x102000,tcp,alert,"=?koi8-r?B?+8HCzM/OINrB0dfMxc7J0SDOwSDP1NDV08sg+9TP0ssg58HSzcHb",Microsoft Office File with Macros Detected(39154),any,informational,client-to-server,3480268866,0xa000000000000000,10.0.0.0-10.255.255.255,192.168.0.0-192.168.255.255,,,0,,,1,,,,,"From: ""Lomakina, Anna"" <anna.lomakina@storck.com>",Sub: =?koi8-r?B?Rlc6IOfB0s3B2yDuLuEuINrB0NLP0yDOwSDF1sXHz8TO2cogz9DMwd7J18HF?=.. =?koi8-r?B?zdnKIM/U0NXTyyDTIDIg0M8gMTcgycDO0SAyMDIyxy4=?=,"To: ""Garmash, Nikolay"" <nikolay.garmash@ru.storck.com>; ",0,11,0,0,0,,fw-de-hal-prz-inet,,,,,0,,0,,N/A,code-execution,AppThreat-8569-7390,0x0,0,4294967295,,,6a0317a6-dba9-4428-bc92-21d0a8904fdd,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1970-01-01T01:00:00.000+01:00,,,0,email,collaboration,client-server,5,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,prone-to-misuse,pervasive-use",smtp,smtp-base,no,no
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:08 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000225708,TRAFFIC,end,2560,2022/05/16 07:30:04,10.138.16.89,10.137.16.103,0.0.0.0,0.0.0.0,ElasticSearch-Mangp-to-Datastore,,,ssl,vsys1,trust,trust,ethernet1/1,ethernet1/1,hbl-log-forwarding-panorama-snmp,2022/05/16 07:30:04,146636,1,33892,8443,0,0,0x10047a,tcp,allow,6186,1761,4425,31,2022/05/16 07:28:46,61,private-ip-addresses,,317786517,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,18,13,tcp-rst-from-client,38,46,0,0,,hbl-gcp-ns-fw-ew-prod-tpl-as1-2,from-policy,,,0,,0,,N/A,0,0,0,0,e6d545ab-803d-4501-bba6-e4f5e459acc2,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:30:05.161+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:07 hal-vma-pan1.ads-storck.com 1,2022/05/16 10:31:36,016201009624,THREAT,vulnerability,2305,2022/05/16 10:31:26,192.241.214.25,193.168.0.84,192.241.214.25,192.168.2.74,fta-20150423-501,,,web-browsing,vsys1,untrust,dmz5,ethernet1/1,ethernet1/5.50,Log_to_Panorama,2022/05/16 10:31:26,903184,1,43190,80,43190,80,0x80402000,tcp,reset-both,"hudson",ZGrab Application Layer Scanner Detection(57955),medium-risk,medium,client-to-server,3480135272,0xa000000000000000,United States,Germany,,,1208301720401110496,,,1,,,,,,,,0,11,0,0,0,,fw-de-hal-prz-inet,,,,,0,,0,,N/A,info-leak,AppThreat-8569-7390,0x0,0,4294967295,,,a1366590-47c6-4d38-a675-52f546278e71,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1970-01-01T01:00:00.000+01:00,,,0,internet-utility,general-internet,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,web-browsing,no,no
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:06 TP-PA850-A 1,2021/10/07 20:36:39,011901019052,SYSTEM,port,0,2021/10/07 20:36:39,,link-change,ethernet1/1,0,0,general,informational,"Port ethernet1/1: Down 1Gb/s-full duplex",692224,0x0,0,0,0,0,,TP-PA850-A
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:05 TP-PA850-A 1,2021/10/12 14:09:39,011901019052,SYSTEM,vpn,0,2021/10/12 14:09:39,,ike-config-p1-abort,,0,0,general,informational,"IKE daemon configuration load phase-1 aborted.",697381,0x0,0,0,0,0,,TP-PA850-A
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:04 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000225708,TRAFFIC,end,2560,2022/05/16 07:30:05,10.138.16.89,10.137.16.103,0.0.0.0,0.0.0.0,ElasticSearch-Mangp-to-Datastore,,,ssl,vsys1,trust,trust,ethernet1/1,ethernet1/1,hbl-log-forwarding-panorama-snmp,2022/05/16 07:30:05,126443,1,34010,8443,0,0,0x10047a,tcp,allow,6186,1761,4425,31,2022/05/16 07:28:47,61,private-ip-addresses,,317786561,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,18,13,tcp-rst-from-client,38,46,0,0,,hbl-gcp-ns-fw-ew-prod-tpl-as1-2,from-policy,,,0,,0,,N/A,0,0,0,0,e6d545ab-803d-4501-bba6-e4f5e459acc2,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:30:06.269+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:03 TP-PA850-B 1,2021/10/07 20:35:55,011901019122,SYSTEM,dnsproxy,0,2021/10/07 20:35:55,,object-enable,mgmt-obj,0,0,general,informational,"Dnsproxy object:mgmt-obj was enabled.",402723,0x0,0,0,0,0,,TP-PA850-B
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:02 TP-PA850-A 1,2021/09/02 16:04:37,011901019052,CONFIG,0,0,2021/09/02 16:04:37,10.80.23.15,,commit,admin,Web,Submitted,,540,0x0,0,0,0,0,,TP-PA850-A
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:01 NVV-PANORAMA-01.lvs.lvsi.com 1,2021/11/22 13:09:04,012501001279,SYSTEM,panorama-check,0,2021/11/22 13:09:02,,panorama-check-test,,0,0,general,informational,"JobId=32951: Performing panorama connectivity check (attempt 1 of 1)",6995516317952628874,0x8000000000000000,0,0,0,0,,NVV-PALO-INT-FW01,0,0,2021-11-22T13:09:02.000-08:00
+Jun 10, 2025 8:02 PMa minute ago
+
+Jun 11 00:02:00 hal-vma-pan1.ads-storck.com 1,2022/05/16 07:09:12,000702104014,SYSTEM,monitoring,0,2022/05/16 07:09:12,,deviating-device, ,0,0,general,informational,"Deviating device: fw-cz-pra-inet-1, Serial: 012801177063, Object: interface 1/1, Metric: tx-bit-rate, Value: 16743",7097851606066614538,0x0,0,0,0,0,,hal-vma-pan1,0,0,2022-05-16T07:09:12.000+02:00
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:59 TP-PA850-B 1,2021/10/09 01:24:18,011901019122,SYSTEM,satd,0,2021/10/09 01:20:46,,satd-daemon-init,,0,0,general,informational,"SATD daemon is initializing.",403412,0x0,0,0,0,0,,TP-PA850-B
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:58 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000225708,TRAFFIC,drop,2560,2022/05/16 07:29:54,10.142.177.232,10.136.0.18,0.0.0.0,0.0.0.0,any-deny,,,not-applicable,vsys1,trust,trust,ethernet1/1,,hbl-log-forwarding-panorama-snmp,2022/05/16 07:29:54,0,1,35928,443,0,0,0x0,tcp,deny,0,0,0,1,2022/05/16 07:29:52,0,any,,317786463,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,1,0,policy-deny,38,46,0,0,,hbl-gcp-ns-fw-ew-prod-tpl-as1-2,from-policy,,,0,,0,,N/A,0,0,0,0,5bcd91bb-e6b5-4514-bc88-0958f42fdf58,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:29:55.554+05:30,,,unknown,unknown,unknown,1,,,not-applicable,no,no,0
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:57 HH-PA850-B 1,2021/10/12 20:51:02,011901019066,THREAT,url,2049,2021/10/12 20:51:02,10.180.10.9,140.249.60.184,0.0.0.0,0.0.0.0,Trust to Untrust,leigarden\lgr07350,,web-browsing,vsys1,Trust,Untrust,ae2,ae1,Syslog to SOC VM,2021/10/12 20:51:02,66710,1,54745,80,0,0,0x3000,tcp,block-url,"notify.623game.cn/notify/cqbz/cqbz_64.ico",(9999),gambling,informational,client-to-server,1496679,0x2000000000000000,10.0.0.0-10.255.255.255,China,0,,0,,,1,,,,,,,,0,0,0,0,0,,HH-PA850-B,,,,head,0,,0,,N/A,unknown,AppThreat-0-0,0x0,0,4294967295,
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:56 pavmvtvsb000001 1,2022/07/11 23:41:39,6A3B65223EAC99D,THREAT,url,2305,2022/07/11 23:41:39,10.160.0.9,50.16.227.238,172.20.0.5,50.16.227.238,OUT_AZ_Sanctioned-Internet_APP_Allow,,,ssl,vsys1,Trust,Untrust,ethernet1/2,ethernet1/1,Spirion-Pano-LF-Azure,2022/07/11 23:41:39,627484,1,36732,443,51833,443,0x40b000,tcp,alert,"a1t2rjke.securonix.net/",(9999),low-risk,informational,client-to-server,102551489,0xa000000000000000,10.0.0.0-10.255.255.255,United States,0,,0,,,0,,,,,,,,0,44,54,0,0,,pavmvtvsb000001,,,,,0,,0,,N/A,unknown,AppThreat-0-0,0x0,0,4294967295,,""computer-and-internet-info,low-risk"",bbf4582f-e341-41fa-b338-a0e6eee2b9a1,0,
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:55 HH-PA850-B 1,2021/10/13 16:36:53,011901019066,SYSTEM,url-filtering,0,2021/10/13 16:36:53,,ha-sync-success,,0,0,general,informational,"Successfully synced PAN-DB to peer.",475316,0x0,0,0,0,0,,HH-PA850-B
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:54 TP-PA850-A 1,2021/10/13 00:02:07,011901019052,TRAFFIC,drop,2049,2021/10/13 00:02:07,122.10.198.132,10.80.201.6,0.0.0.0,0.0.0.0,Untrust to Trust-GEO_BLOCK,,leigarden\administrator,ping,vsys1,Untrust,Trust,ae1,,Syslog To SOC VM,2021/10/13 00:02:07,0,4,0,0,0,0,0x100000,icmp,deny,408,408,0,4,2021/10/13 00:02:00,0,any,0,812190023,0x0,India,10.0.0.0-10.255.255.255,0,4,0,policy-deny,0,0,0,0,,TP-PA850-A,from-policy,,,0,,0,,N/A,0,0,0,0
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:53 TP-PA850-A 1,2021/10/13 00:01:09,011901019052,SYSTEM,general,0,2021/10/13 00:01:09,,general,,0,0,general,informational,"WildFire package upgraded from version 601868-605056 to 601879-605067 by Auto update agent",697843,0x0,0,0,0,0,,TP-PA850-A
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:52 PA-VW.vwpcs.com 1,2022/01/06 22:48:51,011901018611,THREAT,file,2561,2022/01/06 22:48:51,192.168.48.78,72.21.91.29,4.35.230.186,72.21.91.29,Allow Outbound,,,web-browsing,vsys1,Trust,UnTrust,ethernet1/3,ethernet1/11,Bitlyft,2022/01/06 22:48:51,177228,2,52287,80,46379,80,0x402000,tcp,alert,"pca3.crl",Certificate Revocation List File(52280),computer-and-internet-info,low,server-to-client,7039875852588377730,0x0,192.168.0.0-192.168.255.255,United States,,,0,,,1,,,,,,,,0,0,0,0,0,,PA-VW,,,,,0,,0,,N/A,unknown,AppThreat-8509-7158,0x0,0,4294967295,,,47a069ff-1a16-4f4f-a01f-2523e629741e,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2022-01-06T22:48:52.054-05:00,,,,internet-utility,general-internet,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,web-browsing,no,no
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:51 TP-PA850-B 1,2021/10/12 10:09:15,011901019122,SYSTEM,vpn,0,2021/10/12 10:09:15,,ike-config-p2-success,,0,0,general,informational,"IKE daemon configuration load phase-2 succeeded.",405162,0x0,0,0,0,0,,TP-PA850-B
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:50 snloc3pa5280-primary.stifelnet.stifel.local 1,2021/11/24 00:00:00,015701000681,USERID,login,2305,2021/11/24 00:00:00,vsys1,172.20.33.21,stifelnet\olivers,snsocpaup01j,0,1,43200,0,0,agent,,7010455550902305535,0x8000000000000000,11,0,0,0,snloc3pa5280-primary,snloc3pa5280-primary,1,,2021/11/23 23:59:57,1,0x80000000,olivers@stifelnet.stifel.local
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:49 pavmvtvsb000001 1,2022/07/11 23:41:39,6A3B65223EAC99D,THREAT,url,2305,2022/07/11 23:41:39,10.160.0.9,50.16.227.238,172.20.0.5,50.16.227.238,OUT_AZ_Sanctioned-Internet_APP_Allow,,,ssl,vsys1,Trust,Untrust,ethernet1/2,ethernet1/1,Spirion-Pano-LF-Azure,2022/07/11 23:41:39,627484,1,36732,443,51833,443,0x40b000,tcp,alert,"a1t2rjke.securonix.net/",(9999),low-risk,informational,client-to-server,102551489,0xa000000000000000,10.0.0.0-10.255.255.255,United States,0,,0,,,0,,,,,,,,0,44,54,0,0,,pavmvtvsb000001,,,,,0,,0,,N/A,unknown,AppThreat-0-0,0x0,0,4294967295,,""computer-and-internet-info,low-risk"",bbf4582f-e341-41fa-b338-a0e6eee2b9a1,0,
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:48 SRV282-PAN.libro.ca 1,2022/05/05 08:20:31,000702480275,SYSTEM,monitoring,0,2022/05/05 08:20:31,,deviating-device, ,0,0,general,informational,"Deviating device: FWL210, Serial: 012801214385, Object: interface 1/5, Metric: rx-errors, Value: 1753467",7093689035432039172,0x0,0,0,0,0,,SRV282-PAN,0,0,2022-05-05T08:20:31.000-04:00
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:47 hal-vma-pan1.ads-storck.com 1,2022/05/16 07:09:12,000702104014,SYSTEM,monitoring,0,2022/05/16 07:09:12,,deviating-device,,0,0,general,informational,"Deviating device: fw-cz-pra-inet-1, Serial: 012801177063, Object: interface 1/2, Metric: packets-per-sec-transmit, Value: 62",7097851606066614550,0x0,0,0,0,0,,hal-vma-pan1,0,0,2022-05-16T07:09:12.000+02:00,
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:46 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000226817,TRAFFIC,end,2560,2022/05/16 07:29:58,10.206.11.229,10.149.18.33,0.0.0.0,0.0.0.0,sprinkler-nonpci-elasticsearch-mondodb,,,ssl,vsys1,trust,trust,ethernet1/1,ethernet1/1,hbl-log-forwarding-panorama-snmp,2022/05/16 07:29:58,12735,1,49692,8443,0,0,0x10047a,tcp,allow,5899,1641,4258,29,2022/05/16 07:28:41,61,private-ip-addresses,,470619451,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,16,13,tcp-rst-from-server,49,50,0,0,,hbl-gcp-ns-fw-ew-uat-vm-as1-ztt,from-policy,,,0,,0,,N/A,0,0,0,0,da2d4243-b93f-45f1-a2ab-d0cf4d83c0f1,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:29:58.670+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:45 snloc3pa5280-primary.stifelnet.stifel.local 1,2021/11/23 23:59:47,015701000681,USERID,logout,2305,2021/11/23 23:59:47,vsys1,10.130.31.52,stifelnet\fowblec,snsocpaup02j,0,1,0,0,0,agent,,7010455550902304435,0x8000000000000000,11,0,0,0,snloc3pa5280-primary,snloc3pa5280-primary,1,,2021/11/23 11:55:58,1,0x80000000,stifelnet\fowblec
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:44 snloc3pa5280-standby.stifelnet.stifel.local 1,2022/01/10 18:13:14,015701001516,CORRELATION,,,2022/01/10 18:13:14,35.82.51.176,,vsys1,compromised-host,critical,11,0,0,0,vsys1,snloc3pa5280-standby,1869377024,Compromise Activity Sequence,6003, Host appears to be compromised based on a sequence of recent threat log activity.
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:43 HH-PA850-B 1,2021/10/12 15:45:17,011901019066,CONFIG,0,0,2021/10/12 15:45:17,10.80.23.15,,edit,admin,Web,Succeeded, vsys vsys1 rulebase security rules Untrust to Trust - Snmp Service,353,0x0,0,0,0,0,,HH-PA850-B
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:42 us-prod-snj-evfw1.bats.com 1,2022/03/14 15:05:22,013101012014,THREAT,file,2305,2022/03/14 15:05:22,10.193.16.43,10.185.20.83,0.0.0.0,0.0.0.0,LIS and TEL SMTP Access to BIDS,,,smtp-base,vsys2,bids_eu,outside,ethernet1/22.355,ethernet1/21.103,US_LOG_FWD,2022/03/14 15:05:22,36631929,1,56288,25,0,0,0x2000,tcp,alert,"20220314_sponsored_files.zip",Encrypted ZIP(52026),any,low,client-to-server,7064004510699548190,0xa000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,0,,0,,,1,,,,,From: fix@bidstrading.com,Sub: BIDS<>CSSC SPONSORED FLOW SUMMARY 03-14-2022,"To: list.aestradersny@credit-suisse.com,liliana.soto@credit-suisse.com,charlie.whitlock@credit-suisse.com; ",0,46,914,902,0,bids-fw1,us-prod-snj-evfw1,,,,,0,,0,,N/A,unknown,AppThreat-8541-7284,0x0,0,4294967295,,,efba0bec-27ac-4ec0-a0e3-9cfcc3ff96c1,0,
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:41 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:07,007958000225708,TRAFFIC,end,2560,2022/05/16 07:30:05,10.138.16.89,10.137.16.103,0.0.0.0,0.0.0.0,ElasticSearch-Mangp-to-Datastore,,,ssl,vsys1,trust,trust,ethernet1/1,ethernet1/1,hbl-log-forwarding-panorama-snmp,2022/05/16 07:30:05,126443,1,34010,8443,0,0,0x10047a,tcp,allow,6186,1761,4425,31,2022/05/16 07:28:47,61,private-ip-addresses,,317786561,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,18,13,tcp-rst-from-client,38,46,0,0,,hbl-gcp-ns-fw-ew-prod-tpl-as1-2,from-policy,,,0,,0,,N/A,0,0,0,0,e6d545ab-803d-4501-bba6-e4f5e459acc2,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:30:06.269+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:40 fw01.adpolska.pl 1,2022/07/04 14:33:39,012001017010,USERID,logout,2561,2022/07/04 14:33:39,vsys1,10.223.8.145,bartlomiej.rutkowski@elitpolska.pl,,0,1,0,0,0,vpn-client,globalprotect,7087365602333915615,0x0,0,0,0,0,,fw01,0,,2022/07/04 14:33:40,1,0x80000000,bartlomiej.rutkowski@elitpolska.pl,,2022-07-04T14:33:40.119+02:00
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:38 TP-PA850-A 1,2021/10/13 03:52:23,011901019052,TRAFFIC,start,2049,2021/10/13 03:52:23,10.80.22.4,8.8.8.8,0.0.0.0,0.0.0.0,Trust to Untrust,,,dns,vsys1,Trust,Untrust,ae2,ae1,Syslog To SOC VM,2021/10/13 03:52:23,147679,1,51957,53,0,0,0x0,udp,allow,108,108,0,1,2021/10/13 03:52:22,0,any,0,812311115,0x0,10.0.0.0-10.255.255.255,United States,0,1,0,n/a,0,0,0,0,,TP-PA850-A,from-policy,,,0,,0,,N/A,0,0,0,0
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:37 TP-PA850-A 1,2021/10/12 10:34:33,011901019052,CONFIG,0,0,2021/10/12 10:34:33,10.80.23.15,,multi-clone,admin,Web,Succeeded,vsys vsys1 rulebase security rules,656,0x0,0,0,0,0,,TP-PA850-A
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:39 NVV-PANORAMA-01.lvs.lvsi.com 1,2021/11/21 17:27:49,012501001261,SYSTEM,vpn,0,2021/11/21 17:27:48,,ike-generic-event,,0,0,general,informational,"received a message to a dead IKE SA",6917201858682841420,0x8000000000000000,0,0,0,0,,NVV-PALO-EDGE-FW01,0,0,1969-12-31T16:00:00.000-08:00
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:36 NVV-PANORAMA-01.lvs.lvsi.com 1,2021/11/21 17:27:06,007307001709,SYSTEM,monitoring,0,2021/11/21 17:27:06,,deviating-device,,0,0,general,informational,"Deviating device: PALO_EXPO_FW02, Serial: 013201017772, Object: N/A, Metric: logging-rate, Value: 1",107586513,0x0,0,0,0,0,,NVV-PANORAMA-01,0,0,2021-11-21T17:27:06.000-08:00
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:35 hal-vma-pan1.ads-storck.com 1,2022/05/16 10:41:25,016201009624,THREAT,vulnerability,2305,2022/05/16 10:41:07,192.241.214.17,193.168.0.140,0.0.0.0,0.0.0.0,mdm-20150424-474,,,web-browsing,vsys1,untrust,dmz-off0,ethernet1/1,ethernet1/5.691,Log_to_Panorama,2022/05/16 10:41:07,788524,1,45014,8080,0,0,0x80102000,tcp,reset-both,"hudson",ZGrab Application Layer Scanner Detection(57955),medium-risk,medium,client-to-server,3480200349,0xa000000000000000,United States,Germany,,,1208301720401110497,,,1,,,,,,,,0,11,0,0,0,,fw-de-hal-prz-inet,,,,,0,,0,,N/A,info-leak,AppThreat-8569-7390,0x0,0,4294967295,,,3ec24865-5ee7-4eab-97c3-cb5490cc9f2e,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1970-01-01T01:00:00.000+01:00,,,0,internet-utility,general-internet,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,web-browsing,no,no
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:34 TOMILLA 1,2022/07/11 22:21:33,042801001422,THREAT,url,2561,2022/07/11 22:21:33,10.5.0.126,10.1.0.48,0.0.0.0,0.0.0.0,IP-VPN,,,ssl,vsys1,LAN,RPV_1,vlan.2,vlan.1,LFPSecuronix,2022/07/11 22:21:33,11975,1,10024,13000,0,0,0x10b400,tcp,alert,"10.1.0.48:13000/",(9999),private-ip-addresses,informational,client-to-server,7118851307493924061,0x0,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,,0,,""private-ip-addresses"",0,,,""private-ip-addresses"",""private-ip-addresses"",""private-ip-addresses"",""private-ip-addresses"",""private-ip-addresses"",0,163,0,0,0,,TOMILLA,""private-ip-addresses"",,,,0,,0,,N/A,unknown,AppThreat-0-0,0x0,0,4294967295,""private-ip-addresses"",""private-ip-addresses"",b37358b9-e37e-4dab-b257-38396460ebc8,0,,,,,,,,,,,,,,,,,,,,,,,,,,,""private-ip-addresses"",""private-ip-addresses"",0,2022-07-11T22:21:33.163-05:00,,""private-ip-addresses"",,encrypted-tunnel,networking,browser-based,4,""used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use"",,ssl,no,no
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:33 hal-vma-pan1.ads-storck.com 1,2022/05/14 07:49:18,012001060923,TRAFFIC,start,2305,2022/05/14 07:49:00,10.216.21.22,10.216.177.28,0.0.0.0,0.0.0.0,PGPRD_20220331-0730,,,siemens-s7-comm-plus-get-vsstr,vsys1,untr-prd,tr-prd-01,ethernet1/1,ethernet1/3.1,Log_to_Panorama,2022/05/14 07:49:00,103662,1,57771,102,0,0,0x0,tcp,allow,1540276,964090,576186,11287,2022/05/14 07:19:10,1790,any,,81143713,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,7513,3774,n/a,241,0,0,0,,fw-ohr-pg-prd1-1,from-policy,,,0,,0,,N/A,0,0,0,0,665b481e-5a84-40e4-8782-10feae91c05d,0,0,," _whitelist_no_decrypted_URL,computer-and-internet-info,low-risk",,,,,,,,,,,,,,,,,,,,,,,,,,,,,," _whitelist_no_decrypted_URL,computer-and-internet-info,low-risk"," _whitelist_no_decrypted_URL,computer-and-internet-info,low-risk",,1970-01-01T01:00:00.000+01:00,0,0,ics-protocols,business-systems,network-protocol,1,has-known-vulnerability,siemens-s7-comm-plus,untunneled,no,no,0
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:32 TP-PA850-A 1,2021/10/13 01:12:56,011901019052,SYSTEM,ha,0,2021/10/13 01:12:56,,peer-version-match,,0,0,general,informational,"HA Group 20: Threat Content version now matches",697917,0x0,0,0,0,0,,TP-PA850-A
+Jun 10, 2025 8:01 PMa minute ago
+
+Jun 11 00:01:31 NVV-PANORAMA-02.lvs.lvsi.com 1,2021/11/22 09:22:22,007307001714,SYSTEM,ha,0,2021/11/22 09:22:22,,peer-version-match,,0,0,general,informational,"Threat Content version mismatch due to device update",109611172,0x0,0,0,0,0,,NVV-PANORAMA-02,0,0,2021-11-22T09:22:22.000-08:00
+Jun 10, 2025 8:01 PM2 minutes ago
+
+Jun 11 00:01:30 TP-PA850-A 1,2021/08/19 10:31:46,011901019052,THREAT,wildfire,2049,2021/08/19 10:31:46,10.80.210.1,10.80.22.112,0.0.0.0,0.0.0.0,Untrust to Trust,,,ms-ds-smbv2,vsys1,Untrust,Trust,ae1,ae2,Syslog To SOC VM,2021/08/19 10:31:46,87845,1,59588,445,0,0,0x2000,tcp,block,"Bcom_LAN_12.8_W2K3_8_A01.exe",Windows Executable (EXE)(52020),malicious,informational,server-to-client,604066,0x2000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,0,,0,bd43f9418b2783b8d12c9617f9116dde824b4da4fed5c7ec85a711e23692e620,wildfire.paloaltonetworks.com,0,,pe,,,,,,43703543499,0,0,0,0,,TP-PA850-A,,,,,0,,0,,N/A,unknown,WildFire-0-0,0x0,0,4294967295,
+Jun 10, 2025 8:01 PM2 minutes ago
+
+Jun 11 00:01:29 HH-PA850-B 1,2021/10/12 10:41:13,011901019066,SYSTEM,auth,0,2021/10/12 10:41:13,,auth-success,,0,0,general,informational,"authenticated for user 'admin'. From: 10.80.23.15.",473834,0x0,0,0,0,0,,HH-PA850-B
+Jun 10, 2025 8:01 PM2 minutes ago
+
+Jun 11 00:01:28 HBL-CCZ-SFY-PANO-FWMGMT-PRI 1,2022/05/16 07:30:05,015455000032211,TRAFFIC,end,2560,2022/05/16 07:29:43,10.199.2.22,10.199.5.119,0.0.0.0,0.0.0.0,alb-health-check-rule,,,ssl,vsys1,untrust,untrust,ethernet1/1,ethernet1/1,hbl-log-forwarding-panorama-snmp,2022/05/16 07:29:43,43896,1,3956,443,0,0,0x41c,tcp,allow,4406,1035,3371,15,2022/05/16 07:29:27,0,private-ip-addresses,,46171844,0x8000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,,8,7,tcp-fin,39,40,0,0,,ip-10-199-7-74,from-policy,,,0,,0,,N/A,0,0,0,0,bb82f3fe-d31a-48a7-bee1-e3f744edb170,0,0,,,,,,,,0.0.0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-05-16T07:29:44.321+05:30,,,encrypted-tunnel,networking,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,ssl,no,no,0
+Jun 10, 2025 8:01 PM2 minutes ago
+
+Jun 11 00:01:27 TP-PA850-A 1,2021/08/27 15:07:20,011901019052,CONFIG,0,0,2021/08/27 15:07:20,10.80.23.15,,commit,admin,Web,Submitted,,534,0x0,0,0,0,0,,TP-PA850-A
+Jun 10, 2025 8:01 PM2 minutes ago
+
+Jun 11 00:01:26 HH-PA850-B 1,2021/10/12 14:06:40,011901019066,THREAT,url,2049,2021/10/12 14:06:40,10.180.17.185,122.10.31.74,0.0.0.0,0.0.0.0,Trust to Untrust,,,ssl,vsys1,Trust,Untrust,ae2,ae1,Syslog to SOC VM,2021/10/12 14:06:40,194453,1,61120,443,0,0,0x3000,tcp,block-url,"9876500.com/",(9999),gambling,informational,client-to-server,1496672,0x2000000000000000,10.0.0.0-10.255.255.255,Hong Kong,0,,0,,,0,,,,,,,,0,0,0,0,0,,HH-PA850-B,,,,,0,,0,,N/A,unknown,AppThreat-0-0,0x0,0,4294967295,
+Jun 10, 2025 8:01 PM2 minutes ago
+
+Jun 11 00:01:25 TP-PA850-A 1,2021/08/19 10:31:46,011901019052,THREAT,wildfire,2049,2021/08/19 10:31:46,10.80.210.1,10.80.22.112,0.0.0.0,0.0.0.0,Untrust to Trust,,,ms-ds-smbv2,vsys1,Untrust,Trust,ae1,ae2,Syslog To SOC VM,2021/08/19 10:31:46,142478,1,59597,445,0,0,0x2000,tcp,block,"SophosSetup.exe",Windows Executable (EXE)(52020),malicious,informational,server-to-client,604069,0x2000000000000000,10.0.0.0-10.255.255.255,10.0.0.0-10.255.255.255,0,,0,bd43f9418b2783b8d12c9617f9116dde824b4da4fed5c7ec85a711e23692e620,wildfire.paloaltonetworks.com,0,,pe,,,,,,43703543499,0,0,0,0,,TP-PA850-A,,,,,0,,0,,N/A,unknown,WildFire-0-0,0x0,0,4294967295,
+Jun 10, 2025 8:01 PM2 minutes ago
+
+Jun 11 00:01:24 HH-PA850-B 1,2021/10/11 10:09:52,011901019066,SYSTEM,auth,0,2021/10/11 10:09:52,,auth-fail,,0,0,general,medium,"failed authentication for user 'admin'. Reason: Invalid username/password. From: 10.180.10.9.",472655,0x0,0,0,0,0,,HH-PA850-B
+Jun 10, 2025 8:01 PM2 minutes ago
+
+Jun 11 00:01:22 hal-vma-pan1.ads-storck.com 1,2022/05/16 10:31:36,016201009624,THREAT,vulnerability,2305,2022/05/16 10:31:26,192.241.214.25,193.168.0.84,192.241.214.25,192.168.2.74,fta-20150423-501,,,web-browsing,vsys1,untrust,dmz5,ethernet1/1,ethernet1/5.50,Log_to_Panorama,2022/05/16 10:31:26,903184,1,43190,80,43190,80,0x80402000,tcp,reset-both,"hudson",ZGrab Application Layer Scanner Detection(57955),medium-risk,medium,client-to-server,3480135272,0xa000000000000000,United States,Germany,,,1208301720401110496,,,1,,,,,,,,0,11,0,0,0,,fw-de-hal-prz-inet,,,,,0,,0,,N/A,info-leak,AppThreat-8569-7390,0x0,0,4294967295,,,a1366590-47c6-4d38-a675-52f546278e71,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1970-01-01T01:00:00.000+01:00,,,0,internet-utility,general-internet,browser-based,4,"used-by-malware,able-to-transfer-file,has-known-vulnerability,tunnel-other-application,pervasive-use",,web-browsing,no,no
+Jun 10, 2025 8:01 PM2 minutes ago
+
+Jun 11 00:01:21 NVV-PANORAMA-02.lvs.lvsi.com 1,2021/11/23 04:03:58,007307001714,SYSTEM,raid,0,2021/11/23 04:03:58,,rebuild-done,,0,0,general,informational,"Rebuild of Disk Pair K Partition 1 finished.",109719598,0x0,0,0,0,0,,NVV-PANORAMA-02,0,0,2021-11-23T04:03:58.000-08:00
+Jun 10, 2025 8:01 PM2 minutes ago
+
+Jun 11 00:01:23 HH-PA850-B 1,2021/10/11 10:09:52,011901019066,SYSTEM,auth,0,2021/10/11 10:09:52,,auth-fail,,0,0,general,medium,"failed authentication for user 'admin'. Reason: Invalid username/password. From: 10.180.10.9.",472655,0x0,0,0,0,0,,HH-PA850-B
+Jun 10, 2025 8:01 PM2 minutes ago
+
+Jun 11 00:01:20 HH-PA850-B 1,2021/10/12 10:41:13,011901019066,SYSTEM,auth,0,2021/10/12 10:41:13,,auth-success,,0,0,general,informational,"authenticated for user 'admin'. From: 10.80.23.15.",473834,0x0,0,0,0,0,,HH-PA850-B

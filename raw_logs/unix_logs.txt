@@ -1,0 +1,209 @@
+
+Jun 11 00:39:17 nfiv-mawms-p24b run-parts(/etc/cron.hourly)[2403 starting mcelog.cron
+
+
+Jun 11 00:39:16 electrictampa runuser: pam_unix(runuser:session): session closed for user root
+
+
+Jun 11 00:39:15 we1p304400003 cron[12805]: pam_unix(crond:session): session opened for user root by (uid=0)
+
+
+Jun 11 00:39:14 CSUATCINGX01 sshd[220900]: Connection closed by authenticating user root 10.14.2.85 port 50360 [preauth]
+
+
+Jun 11 00:39:13 nfiv-mawms-q14a chambersch: SESSION = 34011, from_remote_host = 172.17.251.126, USER = chambersch, PWD = /nfiiusers/chambersch, CMD = [2021-09-21 08:24]: sudo crontab -u root -l
+
+
+Jun 11 00:39:09 vm-rhel-ptp1-deploy kernel: lo: Disabled Privacy Extensions 192.168.40.96
+
+
+Jun 11 00:39:08 we1p304400003 cron[12805]: pam_unix(crond:session): session opened for user root by (uid=0)
+
+
+Jun 11 00:39:12 wu2p10402002m systemd-logind: Removed session c10096.
+
+
+Jun 11 00:39:11 vm-rhel-ptp1-deploy kernel: lo: Disabled Privacy Extensions 192.168.40.96
+
+
+Jun 11 00:39:10 vm-rhel-ptp1-deploy kernel: lo: Disabled Privacy Extensions 192.168.40.95
+
+
+Jun 11 00:39:04 we1p304400003 cron[12805]: pam_unix(crond:session): session opened for user root by (uid=0)
+
+
+Jun 11 00:39:03 psdmgwi2d001 systemd-logind[1304]: New session 29938 of user mfe. 10.90.32.118
+
+
+Jun 11 00:39:07 CSUATCINGX01 sshd[220900]: Connection closed by authenticating user root 10.14.2.85 port 50360 [preauth]
+
+
+Jun 11 00:39:06 vm-rhel-ptp1-deploy kernel: lo: Disabled Privacy Extensions 192.168.40.96
+
+
+Jun 11 00:39:05 vm-rhel-ptp1-deploy kernel: lo: Disabled Privacy Extensions 192.168.40.98
+
+
+Jun 11 00:39:02 vm-rhel-ptp1-deploy rhnsd[3223]: running program /usr/sbin/rhn_check 192.168.40.100
+
+
+Jun 11 00:39:01 vm-rhel-ptp1-deploy kernel: lo: Disabled Privacy Extensions 192.168.40.98
+
+
+Jun 11 00:39:00 psdmgwi2d001 systemd-logind[1304]: New session 29938 of user mfe. 10.90.32.118
+
+
+Jun 11 00:38:59 cldftcntp02 smbd[9701]: pam_unix(samba:session): session closed for user nobody 10.90.32.118
+
+
+Jun 11 00:38:58 alp-plp-app01 sshd[12880]: pam_unix(sshd:session): session opened for user k1nomaasxxx by (uid=0)
+
+
+Jun 11 00:38:57 electrictampa runuser: pam_unix(runuser:session): session closed for user root
+
+
+Jun 11 00:38:56 electrictampa runuser: pam_unix(runuser:session): session closed for user root
+
+
+Jun 11 00:38:55 wu2p10402002m systemd-logind: New session c10096 of user root.
+
+
+Jun 11 00:38:54 alp-plp-app01 internal-sftp[8945]: session opened for local user k7nozz from [153.110.249.11]
+
+
+Jun 11 00:38:53 seclab1005 sshd[1114]: Failed password for root from 46.180.171.143 port 25143 ssh2
+
+
+Jun 11 00:38:52 we1p304400003 cron[12805]: pam_unix(crond:session): session opened for user root by (uid=0)
+
+
+Jun 11 00:38:51 alp-plp-app01 sshd[12880]: pam_unix(sshd:session): session opened for user k1nomaasxxx by (uid=0)
+
+
+Jun 11 00:38:50 vm-rhel-ptp1-deploy kernel: lo: Disabled Privacy Extensions 192.168.40.98
+
+
+Jun 11 00:38:49 alp-plp-app01 sshd[12880]: pam_unix(sshd:session): session opened for user k1nomaasxxx by (uid=0)
+
+
+Jun 11 00:38:48 cldftcntp02 smbd[9701]: pam_unix(samba:session): session closed for user nobody 10.90.32.118
+
+
+Jun 11 00:38:47 vm-rhel-ptp1-deploy rhnsd[3223]: running program /usr/sbin/rhn_check 192.168.40.100
+
+
+Jun 11 00:38:46 cldftcntp02 smbd[9701]: pam_unix(samba:session): session closed for user nobody 10.90.32.118
+
+
+Jun 11 00:38:45 cldftcntp02 smbd[9701]: pam_unix(samba:session): session closed for user nobody 10.90.32.118
+
+
+Jun 11 00:38:44 wu2p10402002m systemd-logind: New session c10096 of user root.
+
+
+Jun 11 00:38:43 seclab1005 sshd[1114]: Failed password for root from 46.180.171.143 port 25143 ssh2
+
+
+Jun 11 00:38:42 alp-plp-app01 sshd[12880]: pam_unix(sshd:session): session opened for user k1nomaasxxx by (uid=0)
+
+
+Jun 11 00:38:41 CSUATCINGX01 sshd[220900]: Connection closed by authenticating user root 10.14.2.85 port 50360 [preauth]
+
+
+Jun 11 00:38:40 CSUATCINGX01 sshd[220900]: Connection closed by authenticating user root 10.14.2.85 port 50360 [preauth]
+
+
+Jun 11 00:38:39 seclab1005 sshd[1114]: Failed password for root from 46.180.171.143 port 25143 ssh2
+
+
+Jun 11 00:38:38 wu2p10402002m systemd-logind: New session c10096 of user root.
+
+
+Jun 11 00:38:37 alp-plp-app01 internal-sftp[8945]: session opened for local user k7nozz from [153.110.249.11]
+
+
+Jun 11 00:38:36 alp-plp-app01 internal-sftp[8945]: session opened for local user k7nozz from [153.110.249.11]
+
+
+Jun 11 00:38:35 wu2p10402002m systemd-logind: Removed session c10096.
+
+
+Jun 11 00:38:34 vm-rhel-ptp1-deploy kernel: lo: Disabled Privacy Extensions 192.168.40.94
+
+
+Jun 11 00:38:33 nfiv-mawms-p24b run-parts(/etc/cron.hourly)[2403 starting mcelog.cron
+
+
+Jun 11 00:38:32 vm-rhel-ptp1-deploy kernel: lo: Disabled Privacy Extensions 192.168.40.94
+
+
+Jun 11 00:38:31 alp-plp-app01 internal-sftp[8945]: session opened for local user k7nozz from [153.110.249.11]
+
+
+Jun 11 00:38:30 electrictampa runuser: pam_unix(runuser:session): session closed for user root
+
+
+Jun 11 00:38:29 cldftcntp02 smbd[9701]: pam_unix(samba:session): session closed for user nobody 10.90.32.118
+
+
+Jun 11 00:38:28 nfiv-mawms-q14a chambersch: SESSION = 34011, from_remote_host = 172.17.251.126, USER = chambersch, PWD = /nfiiusers/chambersch, CMD = [2021-09-21 08:24]: sudo crontab -u root -l
+
+
+Jun 11 00:38:27 CSUATCINGX01 sshd[220900]: Connection closed by authenticating user root 10.14.2.85 port 50360 [preauth]
+
+
+Jun 11 00:38:26 psdmgwi2d001 systemd-logind[1304]: New session 29938 of user mfe. 10.90.32.118
+
+
+Jun 11 00:38:25 wu2p10402002m systemd-logind: Removed session c10096.
+
+
+Jun 11 00:38:24 we1p304400003 cron[12805]: pam_unix(crond:session): session opened for user root by (uid=0)
+
+
+Jun 11 00:38:23 we1p304980008 passwd[13751]: gkr-pam: couldn't update the login keyring password: no old password was entered
+
+
+Jun 11 00:38:22 electrictampa runuser: pam_unix(runuser:session): session closed for user root
+
+
+Jun 11 00:38:21 alp-plp-app01 sshd[12880]: pam_unix(sshd:session): session opened for user k1nomaasxxx by (uid=0)
+
+
+Jun 11 00:38:20 nfiv-mawms-p24b run-parts(/etc/cron.hourly)[2403 starting mcelog.cron
+
+
+Jun 11 00:38:19 psdmgwi2d001 systemd-logind[1304]: New session 29938 of user mfe. 10.90.32.118
+
+
+Jun 11 00:38:18 vm-rhel-ptp1-deploy kernel: lo: Disabled Privacy Extensions 192.168.40.97
+
+
+Jun 11 00:38:17 alp-plp-app01 internal-sftp[8945]: session opened for local user k7nozz from [153.110.249.11]
+
+
+Jun 11 00:38:16 psdmgwi2d001 systemd-logind[1304]: New session 29938 of user mfe. 10.90.32.118
+
+
+Jun 11 00:38:15 alp-plp-app01 sshd[12880]: pam_unix(sshd:session): session opened for user k1nomaasxxx by (uid=0)
+
+
+Jun 11 00:38:14 we1p304400003 cron[12805]: pam_unix(crond:session): session opened for user root by (uid=0)
+
+
+Jun 11 00:38:13 we1p304980008 passwd[13751]: gkr-pam: couldn't update the login keyring password: no old password was entered
+
+
+Jun 11 00:38:12 wu2p10402002m systemd-logind: Removed session c10096.
+
+
+Jun 11 00:38:11 we1p304980008 passwd[13751]: gkr-pam: couldn't update the login keyring password: no old password was entered
+
+
+Jun 11 00:38:10 seclab1005 sshd[1114]: Failed password for root from 46.180.171.143 port 25143 ssh2
+
+
+Jun 11 00:38:09 vm-rhel-ptp1-deploy kernel: lo: Disabled Privacy Extensions 192.168.40.98
+
+
+Jun 11 00:38:08 psdmgwi2d001 systemd-logind[1304]: New session 29938 of user mfe. 10.90.32.118

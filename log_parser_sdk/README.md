@@ -1,0 +1,167 @@
+# Log Parsing SDK
+
+This SDK provides a convenient way to parse raw security logs into structured JSON data or generate Grok patterns using the Claude AI model. It now supports various input formats, including PCAP files, and can output data in both JSON and CSV formats.
+
+## Features
+
+*   Parse single log entries.
+*   Parse multiple log entries from a file.
+*   Parse logs from a directory.
+*   Parse PCAP files (extracts printable text from packets).
+*   Generate Grok patterns for log entries.
+*   Output parsed data in JSON or CSV format.
+*   Utilizes Claude for intelligent log parsing.
+
+## Installation
+
+To use this SDK, you need to install it in "editable" mode. This is especially useful during development as any changes you make to the source code will be immediately reflected without needing to reinstall.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository_url> # Replace with actual repository URL if available
+    cd log_parser_sdk
+    ```
+2.  **Install dependencies and the SDK in editable mode:**
+    ```bash
+    pip install requests scapy # scapy is required for PCAP parsing
+    pip install tenacity
+    pip install -e .
+    ```
+    The `pip install -e .` command makes the `log_parser_sdk` package discoverable by your Python environment.
+
+## Usage
+
+### Important Note on Running Scripts and `ModuleNotFoundError`
+
+If you encounter a `ModuleNotFoundError: No module named 'log_parser_sdk'` when trying to run a script that imports the SDK (e.g., `SAMPLE.py` or `example.py`), it's likely because you are trying to run the script from *inside* the `log_parser_sdk` directory itself. This creates a conflict with how Python resolves module imports.
+
+**Recommended Solution:**
+
+Always run scripts that *use* the `log_parser_sdk` from a directory *outside* the `log_parser_sdk` source folder. For example, if your SDK is located at `/home/dk/Code/log_parser_sdk`:
+
+1.  **Place your script (e.g., `SAMPLE.py`) in the parent directory:**
+    ```bash
+    mv /home/dk/Code/log_parser_sdk/SAMPLE.py /home/dk/Code/
+    ```
+2.  **Navigate to the parent directory:**
+    ```bash
+    cd /home/dk/Code/
+    ```
+3.  **Run your script from there:**
+    ```bash
+    python SAMPLE.py
+    ```
+
+This ensures Python correctly finds the installed `log_parser_sdk` package.
+
+### 1. Set your Claude API Key
+
+Before using the SDK, you need to set your Claude API key as an environment variable named `CLAUDE_API_KEY`.
+
+```bash
+export CLAUDE_API_KEY="your_claude_api_key_here"
+```
+
+### 2. Initialize the SDK
+
+```python
+from log_parser_sdk.log_parser import LogParsingSDK
+import os
+
+api_key = os.environ.get("CLAUDE_API_KEY")
+sdk = LogParsingSDK(api_key)
+```
+
+### 3. Parse a Single Log Entry
+
+```python
+single_log_entry = "your raw log entry string here"
+parsed_log = sdk.parse_log_entry(single_log_entry)
+print(sdk.output_formatter.format_to_json(parsed_log))
+```
+
+### 4. Parse Log Entries from a File
+
+```python
+file_path = "/path/to/your/log/file.txt"
+parsed_logs = sdk.parse_log_file(file_path)
+print(sdk.output_formatter.format_list_to_json(parsed_logs))
+print(sdk.format_to_csv(parsed_logs)) # Output as CSV
+```
+
+### 5. Parse Logs from a Directory
+
+```python
+directory_path = "/path/to/your/log/directory"
+parsed_dir_logs = sdk.parse_logs_from_directory(directory_path)
+print(sdk.output_formatter.format_list_to_json(parsed_dir_logs))
+print(sdk.format_to_csv(parsed_dir_logs)) # Output as CSV
+```
+
+### 6. Parse PCAP Files
+
+```python
+pcap_file_path = "/path/to/your/pcap/file.pcap"
+# max_packets is optional, useful for large files or testing
+parsed_pcap_logs = sdk.parse_pcap_file(pcap_file_path, max_packets=100)
+print(sdk.output_formatter.format_list_to_json(parsed_pcap_logs))
+print(sdk.format_to_csv(parsed_pcap_logs)) # Output as CSV
+```
+
+### 7. Generate Grok Pattern
+
+```python
+single_log_entry = "your raw log entry string here"
+grok_pattern = sdk.generate_grok_pattern(single_log_entry)
+print(grok_pattern)
+```
+
+## API Reference
+
+### `LogParsingSDK(claude_api_key: str)`
+
+Initializes the SDK.
+
+*   `claude_api_key`: Your API key for the Claude AI model.
+
+### `parse_log_entry(log_entry: str) -> dict`
+
+Parses a single raw log entry string into a structured JSON object.
+
+*   `log_entry`: The raw security log entry string.
+*   Returns: A dictionary representing the parsed JSON data.
+
+### `parse_log_file(file_path: str) -> list[dict]`
+
+Reads a file containing multiple raw log entries and parses each into a structured JSON object.
+
+*   `file_path`: The absolute path to the file containing raw security logs.
+*   Returns: A list of dictionaries, each representing a parsed JSON log entry.
+
+### `parse_logs_from_directory(directory_path: str) -> list[dict]`
+
+Reads all text-based log files from a given directory and parses each into a structured JSON object.
+
+*   `directory_path`: The absolute path to the directory containing log files.
+*   Returns: A list of dictionaries, each representing a parsed JSON log entry.
+
+### `parse_pcap_file(file_path: str, max_packets: int = None) -> list[dict]`
+
+Reads a .pcap file, extracts printable text from packet payloads, and parses them into structured JSON objects.
+
+*   `file_path`: The absolute path to the .pcap file.
+*   `max_packets`: (Optional) Maximum number of packets to process. Useful for large files.
+*   Returns: A list of dictionaries, each representing a parsed JSON log entry from the PCAP data.
+
+### `format_to_csv(parsed_data: list[dict]) -> str`
+
+Converts a list of parsed log dictionaries into a CSV formatted string.
+
+*   `parsed_data`: A list of dictionaries, typically the output from parsing methods.
+*   Returns: A string containing the CSV formatted data.
+
+## Error Handling
+
+The SDK includes basic error handling for API communication and parsing. Errors are printed to the console, and exceptions are re-raised for further handling by the calling application. For Claude API errors, detailed messages from the API are now logged.
+
+
